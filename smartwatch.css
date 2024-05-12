@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* Navegación*/
+
+.menu {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #b3b3b3;
+    align-items: center;
+    width: 100%;    
+    font-size: 12px;
+    font-optical-sizing: auto;
+    color: #57626B
+}
+
+.logog {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    max-width: 30px;
+
+}
+
+.navegacion {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+}
+
+.iconav {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion ul li {
+
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+body {
+    background-color: #F8F9FA;
+
+}
+
+.arrow a{
+    text-decoration: none;
+    color: #353a49;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #353a49;
+    
+}
+.arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-optical-sizing: auto;
+    color: #353A49;
+}
+
+.arrow img {
+margin-right: 10px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.watch {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f8f9fb;
+  
+}
+.foto {
+   max-width: 100%;
+    margin-top: 50px;
+}
+.descripcion {
+   
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fitbit {
+
+    padding-bottom: 30px;
+}
+h1, h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    color: #353A49
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    color: #353A49;
+    padding-bottom: 25px;
+  
+}
+.choose {
+    margin-top: 20px;
+    color: #57626B;
+   font-size: 12px;
+}
+ 
+.linea1 { 
+    border: 1px solid #57626B;
+    max-width: 95%;
+    
+
+}
+.relojes{
+    position: relative;
+    text-align: center;
+}
+.health {
+
+    color: #57626B;
+    font-size: 12px;
+}
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.relojes {
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+border: 1px solid #57626B;
+border-radius: 10px;
+color: #57626B;
+
+}
+
+.images .relojes img{
+    max-width: 60%;
+ }
+
+ .linea2 {
+
+    border: 1px solid #57626B;
+    max-width: 88%; 
+ }
+
+.carro {
+    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.cart {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+h2{
+    
+    padding-bottom: 15px;
+}
+
+.cart select {
+    border-radius: 5px;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+.cart button {
+    border-radius: 10px;
+    background-color: #1A73E8;
+    font-size: 16px;
+    margin: 5px;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: #ffffff;
+    border: #1A73E8;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    padding: 16px;
+}
+
+.deliver {
+    display: flex;
+    font-weight: bold;
+    color: #57626B;
+    font-size: 12px;
+}
+
+.deliver p {
+    display: flex;
+    align-items: center;
+}
+
+#fecha{
+    color:#1A73E8
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items:flex-end;
+    margin-top: 45px;
+}
+.redes {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 40%;
+gap: 15px;
+   
+}
+
+.redes img {
+width: 16px;
+height: 16px;
+
+}
+.terms {
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+
+   
+}
+   
+.terms ul{
+    display: flex;
+    
+    
+}
+.terms ul li{
+    display: flex;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 8px;
+    align-items: center;
+
+}
+.terms ul li a {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,135 @@
+
+@media screen and (max-width:834px) {
+    .general {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconav {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 25%;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+    .icons{   
+        display: none;
+    }
+
+    .auriculares {
+        flex-basis: 100%;
+    }
+    .descripcion {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .opciones {
+        display: flex;
+        width: 100%;
+    }
+    .choolor {
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .carro {
+        background-color: #f8f9fb;
+        margin-right: 20px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        flex-basis: 50%;
+    }
+    .redes {
+        flex-basis: 15%;
+        justify-content: flex-start;
+        margin-left: 10px;
+        gap: 10px;
+    }
+    footer {
+        margin-top: 25px
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .navegacion {
+        display: none;
+    }
+    .general {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+}
+.icons{   
+    display: none;
+}
+
+.iconav {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.auriculares figure {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auriculares figure img {
+    max-width: 100%;
+    width: 50%;
+}
+.descripcion {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.opciones {
+
+flex-direction: column;
+}
+.choolor {
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.carro {
+    background-color: #f8f9fb;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    flex-basis: 50%;
+}
+.cart {
+    flex-direction: column;
+}
+.redes {
+    flex-basis: 15%;
+  flex-direction: row;
+    margin-left: 10px;
+    gap: 10px;
+}
+footer {
+ flex-direction: column;
+ align-items: center;
+}
+.terms ul {
+    flex-direction: column;
+}
+}
